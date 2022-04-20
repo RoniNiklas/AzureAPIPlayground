@@ -8,6 +8,10 @@ nupkg/
 # Visual Studio Code
 .vscode
 
+.vs
+
+.vs/
+
 # Rider
 .idea
 
