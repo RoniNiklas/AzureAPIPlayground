@@ -12,9 +12,7 @@ nupkg/
 # Visual Studio Code
 .vscode
 .vs/
-
 /.vs
-
 /.vs/
 
 # Rider
@@ -44,3 +42,5 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+
+logs/
