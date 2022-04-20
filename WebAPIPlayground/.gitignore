@@ -4,13 +4,18 @@ project.lock.json
 .DS_Store
 *.pyc
 nupkg/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
 # Visual Studio Code
 .vscode
-
-.vs
-
 .vs/
+
+/.vs
+
+/.vs/
 
 # Rider
 .idea
