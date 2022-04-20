@@ -18,6 +18,8 @@ public class WeatherForecastController : ControllerBase {
     [HttpGet(Name = "GetWeatherForecast")]
     public IEnumerable<WeatherForecast> Get() {
         _logger.LogInformation("Received get request at getweatherforecast");
+        _logger.LogError("Try error");
+        _logger.LogWarning("Try warning");
         _logger.LogInformation("Try structured with {FirstNumber}, {Name}, {SecondNumber}", 1, "make", 3);
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast {
             Date = DateTime.Now.AddDays(index),
